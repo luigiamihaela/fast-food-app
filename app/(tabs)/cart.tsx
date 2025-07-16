@@ -1,3 +1,4 @@
+import CartItem from '@/components/CartItem'
 import CustomButton from '@/components/CustomButton'
 import CustomHeader from '@/components/CustomHeader'
 import { useCartStore } from '@/store/cart.store'
@@ -6,7 +7,6 @@ import cn from 'clsx'
 import React from 'react'
 import { FlatList, Text, View } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
-import CartItem from '@/components/CartItem'
 
 const PaymentInfoStripe = ({ label,  value,  labelStyle,  valueStyle, }: PaymentInfoStripeProps) => (
     <View className="flex-between flex-row my-1">
